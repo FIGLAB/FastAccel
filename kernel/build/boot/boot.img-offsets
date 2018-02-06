@@ -1,0 +1,1 @@
+--kernel_offset 00008000 --ramdisk_offset 02000000 --second_offset 00f00000 --tags_offset 01e00000
