@@ -18,6 +18,26 @@ If you use this code, we ask that you cite the following paper:
 
 > Gierad Laput, Robert Xiao, and Chris Harrison. 2016. ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16). ACM, New York, NY, USA, 321-333. DOI: https://doi.org/10.1145/2984511.2984582
 
+or in BibTeX format:
+
+>     @inproceedings{Laput:2016:VHB:2984511.2984582,
+>      author = {Laput, Gierad and Xiao, Robert and Harrison, Chris},
+>      title = {ViBand: High-Fidelity Bio-Acoustic Sensing Using Commodity Smartwatch Accelerometers},
+>      booktitle = {Proceedings of the 29th Annual Symposium on User Interface Software and Technology},
+>      series = {UIST '16},
+>      year = {2016},
+>      isbn = {978-1-4503-4189-9},
+>      location = {Tokyo, Japan},
+>      pages = {321--333},
+>      numpages = {13},
+>      url = {http://doi.acm.org/10.1145/2984511.2984582},
+>      doi = {10.1145/2984511.2984582},
+>      acmid = {2984582},
+>      publisher = {ACM},
+>      address = {New York, NY, USA},
+>      keywords = {gestures, object detection, vibro-tags, wearables},
+>     }
+
 ## API
 The `fastacc_mpu` driver exports a set of virtual files at `/sys/class/misc/fastacc_mpu/device`. These files are as follows:
 
