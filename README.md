@@ -10,7 +10,7 @@ The accelerometer on a typical smartwatch runs at around 100 Hz, which is suffic
 
 This repository contains the software necessary to run the accelerometer at this higher speed. It disables the existing accelerometer driver (`INV_MPU_IIO`) and substitutes a custom driver, `fastacc_mpu`, which buffers data at the higher rate and makes it available through a virtual file.
 
-You will need an LG G Watch (W100) running Android 5.0.1 (LWX48P).
+We have prepared this kernel image and source for an LG G Watch (W100) running Android 5.0.1 (LWX48P). However, the underlying code should be portable to any Android device with an InvenSense 6xxx or 9xxx Series MPU.
 
 ## Citing
 
